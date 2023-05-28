@@ -4,7 +4,7 @@ import signal
 import time
 import os
 
-szal = int(input("Szálak: "))
+szal = int(input("Threads: "))
 
 def getListProxy():
     url = "https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=all&ssl=all&anonymity=all"
